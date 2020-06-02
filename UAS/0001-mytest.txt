@@ -1,0 +1,26 @@
+Script started on Tue 02 Jun 2020 09:43:54 PM WIB
+ronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+ronaldi-tj
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200602-214418-d968-UAS/>
+$ PS1="\$(eval \$PSTAMP)"
+200602-214424-be6e-UAS/> date
+Tue Jun  2 21:44:33 WIB 2020
+200602-214433-65c4-UAS/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/r/ronaldi.tjaidianto/.gnupg/pubring.gpg
+----------------------------------------------------------------
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+pub   4096R/8E4F0EE9 2020-02-19 [expires: 2021-02-18]
+uid       [ultimate] Ronaldi Tjaidianto (Ronaldi) <ronalditjaidianto01@gmail.com>
+sub   4096R/7E1B76BC 2020-02-19 [expires: 2021-02-18]
+
+200602-214439-843c-UAS/> exit
+exit
+
+Script done on Tue 02 Jun 2020 09:44:49 PM WIB
