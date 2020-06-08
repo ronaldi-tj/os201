@@ -7,7 +7,7 @@ Laman ini menggunakan Github Pages serta tema Jekyll.
 
 # Profil Mahasiswa
 
-![Image of Yaktocat](https://github.com/ronaldi-tj/os201/blob/master/images/yaktocat.png?raw=true)
+<img src="https://github.com/ronaldi-tj/os201/blob/master/images/yaktocat.png?raw=true" width="256">
 
 Nama  : Ronaldi Tjaidianto
 
