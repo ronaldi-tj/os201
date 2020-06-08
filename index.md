@@ -1,23 +1,21 @@
 ## Selamat datang di laman Github ronaldi-tj/os201
 
-Laman ini dibuat untuk keperluan pribadi dalam mata kuliah Sistem Operasi, Fasilkom, UI. 
+Laman ini dibuat untuk keperluan UAS dalam mata kuliah Sistem Operasi, Fasilkom, UI. 
 
 Laman ini menggunakan Github Pages serta tema Jekyll.
 
 
-### Profil Mahasiswa
+### Profil Saya
 
-<img src="https://github.com/ronaldi-tj/os201/blob/master/images/yaktocat.png?raw=true" width="256">
+<img src="https://github.com/ronaldi-tj/os201/blob/master/images/yaktocat.png?raw=true" width="384">
 
 Nama  : Ronaldi Tjaidianto
 
 NPM   : 1806141441
 
-Kelas : OS-C
+Kelas : OS C
 
 
-### [Laman Tambahan](URLs/)
-
-Laman ini berisi link-link berguna seputar Sistem Informasi.
+### [Laman tambahan berisi link-link mengenai Sistem Operasi](URLs/)
 
 Akses dengan [klik disini.](URLs/)
