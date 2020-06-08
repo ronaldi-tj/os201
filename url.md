@@ -9,4 +9,4 @@ permalink: /URLs/
 * [Tutorial untuk Shell Scripting](https://www.shellscript.sh/)
 * [Youtube Playlist (dari os.vlsm.org)](https://os.vlsm.org/playlists/)
 
-- C 1806141441 Ronaldi Tjaidianto
+-C 1806141441 Ronaldi Tjaidianto
