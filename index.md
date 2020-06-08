@@ -5,7 +5,7 @@ Laman ini dibuat untuk keperluan pribadi dalam mata kuliah Sistem Operasi, Fasil
 Laman ini menggunakan Github Pages serta tema Jekyll.
 
 
-# Profil Mahasiswa
+### Profil Mahasiswa
 
 <img src="https://github.com/ronaldi-tj/os201/blob/master/images/yaktocat.png?raw=true" width="256">
 
@@ -16,7 +16,7 @@ NPM   : 1806141441
 Kelas : OS-C
 
 
-# [Laman Tambahan](URLs/)
+### [Laman Tambahan](URLs/)
 
 Laman ini berisi link-link berguna seputar Sistem Informasi.
 
