@@ -1,0 +1,37 @@
+Script started on Mon 08 Jun 2020 06:54:43 PM WIB
+ronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
+$ echo $GitHubUser
+ronaldi-tj
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-185459-f03b-UAS/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-185503-fdc8-UAS/> echo -e $CEKSAYA
+ronaldi-tj ZCZCSCRIPTSTART 200602-214354 ronaldi-tj
+ ronaldi-tj ronaldi-tj 200602-214418-d968-UAS/ 200602-214418 SEQOK SUMOK d968d7b5
+ ronaldi-tj ronaldi-tj 200602-214424-be6e-UAS/ 200602-214424 SEQOK SUMOK be6ea754
+ ronaldi-tj ronaldi-tj 200602-214433-65c4-UAS/ 200602-214433 SEQOK SUMOK 65c4351c
+ ronaldi-tj ronaldi-tj 200602-214439-843c-UAS/ 200602-214439 SEQOK SUMOK 843c3163
+ ronaldi-tj ZCZCSCRIPTSTOP 200602-214449 SEQOK
+
+200608-185507-24d2-UAS/> echo -e $CEKSEBELA1
+roygodsend23 ZCZCSCRIPTSTART 200603-223617 roygodsend23
+ roygodsend23 roygodsend23 200603-223650-e48e-roy.godsend/ 200603-223650 SEQOK SUMOK e48e3f87
+ roygodsend23 roygodsend23 200603-223700-10bb-roy.godsend/ 200603-223700 SEQOK SUMOK 10bb6966
+ roygodsend23 roygodsend23 200603-223704-63da-roy.godsend/ 200603-223704 SEQOK SUMOK 63dab306
+ roygodsend23 roygodsend23 200603-223712-89d4-roy.godsend/ 200603-223712 SEQOK SUMOK 89d40d24
+ roygodsend23 ZCZCSCRIPTSTOP 200603-223742 SEQOK
+
+200608-185511-83a5-UAS/> echo -e $CEKSEBELA2
+rukamudrik ZCZCSCRIPTSTART 200530-170940 rukamudrik
+ rukamudrik rukamudrik 200530-171014-3ecd-UAS/ 200530-171014 SEQOK SUMOK 3ecd9115
+ rukamudrik rukamudrik 200530-171023-76d0-UAS/ 200530-171023 SEQOK SUMOK 76d08e80
+ rukamudrik rukamudrik 200530-171031-cd6c-UAS/ 200530-171031 SEQOK SUMOK cd6cbee7
+ rukamudrik rukamudrik 200530-171039-83b6-UAS/ 200530-171039 SEQOK SUMOK 83b6bee9
+ rukamudrik ZCZCSCRIPTSTOP 200530-171046 SEQOK
+
+200608-185516-2d40-UAS/> exit
+exit
+
+Script done on Mon 08 Jun 2020 06:55:21 PM WIB
