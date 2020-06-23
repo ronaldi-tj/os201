@@ -1,35 +1,35 @@
 Script started on Tue 09 Jun 2020 09:28:18 AM WIB
-ronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
+]0;ronaldi.tjaidianto@badak: ~/UASronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 ronaldi-tj
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200609-092837-60b4-UAS/>
+200609-092837-60b4-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
 200609-092841-8224-UAS/> echo -e $CEKSAYA
-ronaldi-tj ZCZCSCRIPTSTART 200602-214354 ronaldi-tj
- ronaldi-tj ronaldi-tj 200602-214418-d968-UAS/ 200602-214418 SEQOK SUMOK d968d7b5
- ronaldi-tj ronaldi-tj 200602-214424-be6e-UAS/ 200602-214424 SEQOK SUMOK be6ea754
- ronaldi-tj ronaldi-tj 200602-214433-65c4-UAS/ 200602-214433 SEQOK SUMOK 65c4351c
- ronaldi-tj ronaldi-tj 200602-214439-843c-UAS/ 200602-214439 SEQOK SUMOK 843c3163
- ronaldi-tj ZCZCSCRIPTSTOP 200602-214449 SEQOK
+ronaldi-tj ZCZCSCRIPTSTART 200602-214354 ronaldi-tj 
+ ronaldi-tj ronaldi-tj 200602-214418-d968-UAS/ 200602-214418 SEQOK SUMOK d968d7b5 
+ ronaldi-tj ronaldi-tj 200602-214424-be6e-UAS/ 200602-214424 SEQOK SUMOK be6ea754 
+ ronaldi-tj ronaldi-tj 200602-214433-65c4-UAS/ 200602-214433 SEQOK SUMOK 65c4351c 
+ ronaldi-tj ronaldi-tj 200602-214439-843c-UAS/ 200602-214439 SEQOK SUMOK 843c3163 
+ ronaldi-tj ZCZCSCRIPTSTOP 200602-214449 SEQOK 
 
 200609-092845-fa0c-UAS/> echo -e $CEKSEBELA1
-ronaldi-tj ZCZCSCRIPTSTART 200603-223617 roygodsend23
- ronaldi-tj roygodsend23 200603-223650-e48e-roy.godsend/ 200603-223650 SEQOK SUMOK e48e3f87
- ronaldi-tj roygodsend23 200603-223700-10bb-roy.godsend/ 200603-223700 SEQOK SUMOK 10bb6966
- ronaldi-tj roygodsend23 200603-223704-63da-roy.godsend/ 200603-223704 SEQOK SUMOK 63dab306
- ronaldi-tj roygodsend23 200603-223712-89d4-roy.godsend/ 200603-223712 SEQOK SUMOK 89d40d24
- ronaldi-tj ZCZCSCRIPTSTOP 200603-223742 SEQOK
+ronaldi-tj ZCZCSCRIPTSTART 200603-223617 roygodsend23 
+ ronaldi-tj roygodsend23 200603-223650-e48e-roy.godsend/ 200603-223650 SEQOK SUMOK e48e3f87 
+ ronaldi-tj roygodsend23 200603-223700-10bb-roy.godsend/ 200603-223700 SEQOK SUMOK 10bb6966 
+ ronaldi-tj roygodsend23 200603-223704-63da-roy.godsend/ 200603-223704 SEQOK SUMOK 63dab306 
+ ronaldi-tj roygodsend23 200603-223712-89d4-roy.godsend/ 200603-223712 SEQOK SUMOK 89d40d24 
+ ronaldi-tj ZCZCSCRIPTSTOP 200603-223742 SEQOK 
 
 200609-092850-9314-UAS/> echo -e $CEKSEBELA2
-ronaldi-tj ZCZCSCRIPTSTART 200530-170940 rukamudrik
- ronaldi-tj rukamudrik 200530-171014-3ecd-UAS/ 200530-171014 SEQOK SUMOK 3ecd9115
- ronaldi-tj rukamudrik 200530-171023-76d0-UAS/ 200530-171023 SEQOK SUMOK 76d08e80
- ronaldi-tj rukamudrik 200530-171031-cd6c-UAS/ 200530-171031 SEQOK SUMOK cd6cbee7
- ronaldi-tj rukamudrik 200530-171039-83b6-UAS/ 200530-171039 SEQOK SUMOK 83b6bee9
- ronaldi-tj ZCZCSCRIPTSTOP 200530-171046 SEQOK
+ronaldi-tj ZCZCSCRIPTSTART 200530-170940 rukamudrik 
+ ronaldi-tj rukamudrik 200530-171014-3ecd-UAS/ 200530-171014 SEQOK SUMOK 3ecd9115 
+ ronaldi-tj rukamudrik 200530-171023-76d0-UAS/ 200530-171023 SEQOK SUMOK 76d08e80 
+ ronaldi-tj rukamudrik 200530-171031-cd6c-UAS/ 200530-171031 SEQOK SUMOK cd6cbee7 
+ ronaldi-tj rukamudrik 200530-171039-83b6-UAS/ 200530-171039 SEQOK SUMOK 83b6bee9 
+ ronaldi-tj ZCZCSCRIPTSTOP 200530-171046 SEQOK 
 
 200609-092855-f152-UAS/> exit
 exit

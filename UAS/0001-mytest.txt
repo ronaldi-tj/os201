@@ -1,11 +1,11 @@
 Script started on Tue 02 Jun 2020 09:43:54 PM WIB
-ronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
+]0;ronaldi.tjaidianto@badak: ~/UASronaldi.tjaidianto@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 ronaldi-tj
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200602-214418-d968-UAS/>
+200602-214418-d968-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
 200602-214424-be6e-UAS/> date
 Tue Jun  2 21:44:33 WIB 2020
